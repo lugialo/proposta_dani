@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sixth-page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    :root {
+        --title-color: #0A9CD8;
+        --subtitle-color: #222323;
+    }
+
+    body {
+        margin: auto;
+        padding: 0;
+        font-family: 'Montserrat';
+        display: flex;
+        height: fit-content;
+        /* max-width: 595px; */
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+        margin-top: 2.0939px;
+        font-size: 23.2863999999999995px;
+        margin-left: 14.11738px;
+    }
+
+    a:visited {
+        color: #000;
+    }
+
+    a:hover {
+        color: rgb(34, 34, 148);
+    }
+
+    .content-vector-1-first-page {
+        margin-top: 92.61px;
+        margin-left: 475.9158px;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .content-vector-2-first-page {
+        margin-top: 116.75px;
+        margin-left: 52.06px;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .content-vector-3-first-page {
+        position: absolute;
+        margin-top: 219.19px;
+        z-index: -1;
+        mix-blend-mode: multiply;
+    }
+
+    .content-vector-4-first-page {
+        position: block;
+        margin-top: 417.86px;
+        margin-right: 60px;
+    }
+
+
+    .content-div {
+        position: absolute;
+        width: 595px;
+    }
+
+    .third-page .footer-tallk-me-small svg {
+        position: absolute;
+        top: 1000px;
+    }
+
+    .fifth-page .footer-tallk-me-small svg {
+        position: absolute;
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .sixth-page .footer-tallk-me-big svg {
+        position: absolute;
+        top: 940px;
+    }
+
+    .title-numeration {
+        margin-top: 36.95px;
+        background: #E7E8E9;
+        display: flex;
+        font-size: 12px;
+        font-weight: 500;
+        color: #FFF;
+        margin-right: 37.53px;
+        justify-content: space-between;
+    }
+
+    .proposta-comercial {
+        margin-left: 36.63px;
+        background-color: var(--title-color);
+        color: #FFF;
+        width: fit-content;
+        padding: 2.241316px 23.24px 4.453524px 22.660578px;
+        border-radius: 6px;
+    }
+
+    .page-numeration {
+        align-self: center;
+        padding: 1.54px 15.97px 3.06px 15.57px;
+        background-color: #36373D;
+        border-radius: 6px;
+        width: fit-content;
+
+    }
+
+    .text-second-page {
+        margin-top: 68.02px;
+        margin-left: 36.64px;
+        justify-content: space-between;
+    }
+
+    .text-second-page-title {
+        color: var(--title-color);
+        font-size: 17.4648px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+
+    .text-second-page-title svg {
+        position: absolute;
+        margin-left: -145px;
+
+    }
+
+    .footer-tallk-me-big svg {
+        display: block;
+        margin: auto;
+        margin-top: 54.81px;
+        margin-bottom: 33.83px;
+
+    }
+
+    .text-second-page-content {
+        color: #222323;
+        font-size: 20.3756px;
+        font-weight: 700;
+        margin: 4px 0px 3px 0px;
+    }
+
+    .tornar-cliente {
+        color: #FFF;
+        font-size: 26.19px;
+        font-weight: 800;
+        margin-top: 100px;
+        margin-left: -36px;
+        margin-bottom: 5px;
+        background-color: #36373D;
+        text-align: center;
+        padding-top: 70.38px;
+        padding-bottom: 78.416px;
+    }
+
+    .svg-tornar-cliente-02 {
+
+        margin-left: -8.4px;
+    }
+
+
+    .svg-tornar-cliente {
+        margin-top: 24.13px;
+        margin-left: 433.12704px;
+        display: flex;
+    }
+
+    .third-page-pl-title {
+        color: var(--title-color);
+        font-size: 26.1972px;
+        font-weight: 700;
+        margin-left: 37.7px;
+        margin-bottom: 22px;
+    }
+
+    .solucao {
+        font-weight: 700;
+        color: #222323;
+        font-size: 16px;
+
+        margin-bottom: 4px;
+        text-decoration: none;
+    }
+
+    .solucao li {
+        margin-left: 37.7px;
+        font-size: 14px;
+        color: #222323;
+        margin-top: 7px;
+        font-weight: 700;
+        margin-left: 17.7px;
+        margin-bottom: 7px;
+    }
+
+    .third-page-pl-subtitle {
+        color: var(--subtitle-color)
+    }
+
+    .svg-solucao-01 {
+        position: absolute;
+        margin-left: 580px;
+        fill: #0A9CD8;
+        stroke-width: 1px;
+        stroke: #000;
+
+        mix-blend-mode: multiply;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+
+    .svg-solucao-02 {
+        position: absolute;
+        margin-left: 143.5px;
+        top: 720px;
+        z-index: -1;
+    }
+
+    .first-page,
+    .second-page,
+    .third-page,
+    .fourth-page,
+    .fifth-page,
+    .sixth-page {
+        width: 866px;
+        height: 1122px;
+        margin: 0 auto;
+    }
+
+    .pl-title-text {
+        margin-left: 37.5px;
+        font-weight: 700;
+        color: #222323;
+        font-size: 23, 2px;
+        margin-bottom: 4px;
+        text-decoration: none;
+    }
+
+    .prize-table-title {
+        color: #0A9CD8;
+        font-size: 26.1972px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 65.434784px;
+        margin-bottom: 32.174340px;
+    }
+
+
+    table thead {
+        color: white;
+        border-collapse: collapse;
+        background: #3F93CC;
+
+    }
+
+    .prize-table-content {
+        background: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .prize-table-content td {
+        padding: 7.276px;
+
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-left: 43.050732px;
+        margin-right: 727.7px;
+        font-size: 13.539446px;
+        width: 780.094px;
+    }
+
+    .pagamento h1 {
+        color: #0A9CD8;
+        font-size: 26.1972px;
+        text-align: center;
+        margin-block: 0px;
+        margin-top: 58.914px;
+        margin-bottom: 20.968px;
+        font-weight: 700;
+    }
+
+    .pagamento-content-01 {
+        display: flex;
+        padding: 32.36px;
+        background: #089CD8;
+        margin-left: 45.36px;
+        margin-right: 45.36px;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+
+    .pagamento-content-01>.pagamento-content-text {
+        margin-left: 24.82px;
+    }
+
+    .pagamento-content-02 {
+        display: flex;
+        padding: 32.36px;
+        background: #90D2E1;
+        margin-left: 45.36px;
+        margin-right: 45.36px;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+
+    .pagamento-content-03 {
+        display: flex;
+        padding: 32.36px;
+        background: #C1E5F9;
+        margin-left: 45.36px;
+        margin-right: 45.36px;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+
+    .pagamento-content-text {
+        font-size: 14.539446px;
+        font-weight: 500;
+    }
+
+    .pagamento-content-text> {
+        text-align: center;
+    }
+
+    .pagamento-content-price {
+        font-size: 14.539446px;
+        font-weight: 700;
+        margin-right: 72.77px;
+    }
+
+
+    .pagamento-content>div {
+        align-items: center;
+    }
+
+    .fidelity-advice {
+        font-size: 17.4648px;
+        font-weight: 500;
+        text-align: center;
+        margin: 21.39438px 0 70px;
+    }
+
+    .fifth-page-title {
+        color: #0A9CD8;
+        font-size: 26.1972px;
+        white-space: nowrap;
+        font-weight: 700;
+        margin: 95.35px 866px 35.07514px 53.30764px;
+    }
+
+
+    .fifth-page-content {
+        margin-bottom: 193.5px;
+    }
+
+    .fifth-page-content svg {
+        position: absolute;
+        margin-left: 600px;
+        margin-top: -140px;
+        z-index: -1;
+    }
+
+    .fifth-page-content li {
+        margin-left: 53.31px;
+        color: #222323;
+        margin-bottom: 21.831px;
+        font-size: 17.4648px;
+        font-weight: 700;
+    }
+
+    .sixth-page-title {
+        color: #0A9CD8;
+        margin-top: 300.47912px;
+        margin-left: 58.2159px;
+        margin-bottom: 25.54227px;
+        font-family: Montserrat;
+        font-size: 81.5024px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .icon-container {
+        display: flex;
+        margin-bottom: 12.123482px;
+    }
+
+    .icon-container text {
+        margin-top: 5.0939px;
+        font-size: 23.2863999999999995px;
+        margin-left: 14.11738px;
+    }
+
+    .icon-container img {
+        margin-left: 57.92492px;
+        width: 37.723968px;
+        height: 37.723968px;
+    }
+
+    .svg-sixth-page-01 {
+        margin-top: -60px;
+        margin-left: 729px;
+    }
+
+    .svg-sixth-page-02 {
+        position: absolute;
+        margin-left: 145.5px;
+        margin-top: -225px;
+        z-index: -1;
+    }
+
+    .vector-second-page {
+        top: 500px;
+    }
+</style>
+
+<body>
+    <div class="sixth-page" style="page-break-after: always;">
+        <div class="sixth-page-content">
+            <div class="sixth-page-title">OBRIGADO!</div>
+        </div>
+
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/gMrCKB9/local.png">
+            <a href="https://www.google.com/maps/place/Brasil+Connecting/@-28.6815785,-49.3813828,17z/data=!3m1!4b1!4m6!3m5!1s0x92a48c0e5384780b:0x4c295036d26894eb!8m2!3d-28.6815786!4d-49.3765119!16s%2Fg%2F11g_lglvm?entry=ttu"
+                target="_blank">
+                <text>Criciúma, Santa Catarina</text>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/PGjpV91/telephone.png">
+            <a href="https://api.whatsapp.com/send/?phone=4831988395&text=Ol%C3%A1!&type=phone_number&app_absent=0"
+                target="_blank">
+                <text>(48) 3198-8395</text>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/NYHBMzY/www.png">
+            <a href="http://brasilconnecting.com.br" target="_blank">
+                <text>brasilconnecting.com</text>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/Mks2Kwv/email.png">
+            <a href="mailto:atendimento@brasilconnecting.com.br" target="_blank">
+                <text>atendimento@brasilconnecting.com.br</text>
+            </a>
+        </div>
+
+
+        <div class="svg-sixth-page-01">
+            <svg xmlns="http://www.w3.org/2000/svg" width="139" height="376" viewBox="0 0 139 376" fill="none">
+                <g style="mix-blend-mode:multiply">
+                    <path
+                        d="M138.161 0V375.725H53.1251C17.9202 375.725 -7.53383 342.122 2.02781 308.286L78.3026 38.6176C84.7644 15.7842 105.634 0 129.4 0H138.161Z"
+                        fill="#0A9CD8" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="svg-sixth-page-02">
+            <svg xmlns="http://www.w3.org/2000/svg" width="722" height="403" viewBox="0 0 722 403" fill="none">
+                <path
+                    d="M721.485 0V402.345H56.8204C19.1693 402.345 -8.06114 366.368 2.1703 330.128L83.7453 41.3479C90.6584 16.8972 112.97 0 138.395 0H721.485Z"
+                    fill="#E7E8E9" />
+            </svg>
+        </div>
+
+        <div class="footer-tallk-me-big"
+            style="display: flex; justify-content: center; align-items: center; margin-top: 54.81px ; margin-bottom: 33.83px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="218" height="67" viewBox="0 0 218 67" fill="none">
+                <path
+                    d="M65.94 33.22C65.94 15.08 51.24 0.380005 33.1 0.380005C14.96 0.380005 0.26001 15.08 0.26001 33.22C0.26001 51.36 14.96 66.06 33.1 66.06C41.96 66.06 48.7 63.04 54.72 57.77C55.04 57.47 55.53 57.43 55.89 57.67L64.39 64.53C64.84 64.84 65.45 64.73 65.76 64.28C65.87 64.12 65.93 63.93 65.94 63.73C65.94 59.49 65.94 37.32 65.94 33.21V33.22ZM32.96 51.12C23.08 51.01 15.15 42.92 15.24 33.03C15.26 30.79 15.41 16.4 15.41 16.4C15.38 16.12 15.59 15.87 15.87 15.84C16.01 15.83 16.15 15.87 16.26 15.97L20.86 19.76C21.06 19.9 21.32 19.88 21.5 19.71C24.81 16.87 28.5 15.28 33.33 15.32C43.22 15.33 51.22 23.36 51.2 33.25C51.19 43.14 43.16 51.14 33.27 51.12C33.16 51.12 33.06 51.12 32.95 51.12H32.96Z"
+                    fill="url(#paint0_linear_1_1033)" />
+                <path
+                    d="M91.4801 40.85V45.85H88.4801C86.3401 45.85 84.6801 45.33 83.4801 44.28C82.2901 43.23 81.6901 41.53 81.6801 39.17V31.5H79.3401V26.6H81.6801V21.91H87.5901V26.6H91.4501V31.5H87.5901V39.23C87.5501 39.68 87.7001 40.13 88.0101 40.47C88.4101 40.76 88.9001 40.9 89.3901 40.85H91.4801Z"
+                    fill="#3D3A3A" />
+                <path
+                    d="M93.68 30.98C94.36 29.56 95.42 28.37 96.75 27.53C98.04 26.72 99.54 26.31 101.06 26.32C102.3 26.29 103.53 26.58 104.63 27.15C105.6 27.65 106.41 28.4 106.99 29.32V26.59H112.87V45.84H106.97V43.11C106.38 44.03 105.55 44.78 104.58 45.28C103.48 45.85 102.25 46.14 101.01 46.11C99.5 46.12 98.01 45.7 96.73 44.88C95.4 44.03 94.34 42.82 93.66 41.4C92.88 39.77 92.5 37.98 92.54 36.17C92.5 34.37 92.89 32.59 93.67 30.96L93.68 30.98ZM105.75 32.74C104.17 31.09 101.55 31.03 99.9 32.61C99.86 32.65 99.82 32.6799 99.79 32.7199C98.97 33.5599 98.56 34.71 98.56 36.19C98.56 37.66 98.97 38.83 99.79 39.69C100.55 40.53 101.64 41 102.77 40.98C103.9 41 104.99 40.53 105.75 39.71C106.57 38.86 106.97 37.6999 106.97 36.2199C106.97 34.7399 106.56 33.59 105.75 32.74Z"
+                    fill="#0492C9" />
+                <path d="M122.02 20.32V45.85H116.12V20.32H122.02Z" fill="#0492C9" />
+                <path d="M131.16 20.32V45.85H125.26V20.32H131.16Z" fill="#0492C9" />
+                <path
+                    d="M146.16 45.85L140.3 37.78V45.85H134.41V20.32H140.31V34.43L146.14 26.59H153.42L145.42 36.25L153.5 45.85H146.17H146.16Z"
+                    fill="#3D3A3A" />
+                <path
+                    d="M154.91 45.21C154.27 44.64 153.91 43.81 153.93 42.95C153.91 42.07 154.27 41.23 154.91 40.64C155.6 40.01 156.51 39.67 157.45 39.71C158.37 39.68 159.27 40.01 159.95 40.64C160.59 41.23 160.95 42.08 160.93 42.95C160.95 43.81 160.59 44.63 159.95 45.21C159.27 45.83 158.37 46.16 157.45 46.13C156.52 46.17 155.61 45.84 154.91 45.21Z"
+                    fill="#3D3A3A" />
+                <path
+                    d="M193.64 28.57C195.06 30.02 195.76 32.03 195.76 34.61V45.85H189.9V35.4001C189.9 34.1601 189.57 33.2 188.92 32.52C187.37 31.16 185.05 31.16 183.51 32.52C182.85 33.2 182.52 34.1601 182.53 35.4001V45.85H176.68V35.4001C176.68 34.1601 176.35 33.2 175.7 32.52C174.15 31.16 171.83 31.16 170.28 32.52C169.63 33.2 169.3 34.1601 169.3 35.4001V45.85H163.39V26.6H169.29V29.02C169.9 28.2 170.71 27.54 171.63 27.11C172.65 26.63 173.78 26.38 174.91 26.4C176.26 26.38 177.6 26.7 178.79 27.33C179.92 27.94 180.84 28.86 181.46 29.98C182.14 28.91 183.08 28.02 184.19 27.39C185.33 26.73 186.62 26.38 187.94 26.39C190.34 26.39 192.25 27.11 193.66 28.56L193.64 28.57Z"
+                    fill="#3D3A3A" />
+                <path
+                    d="M216.91 37.64H203.56C203.65 38.84 204.04 39.75 204.72 40.38C205.4 41.01 206.29 41.35 207.22 41.33C208.69 41.33 209.71 40.71 210.29 39.47H216.57C215.91 42.05 214.11 44.19 211.67 45.26C210.33 45.85 208.89 46.15 207.43 46.13C205.68 46.16 203.94 45.74 202.4 44.91C200.94 44.12 199.74 42.92 198.95 41.46C198.09 39.85 197.67 38.04 197.71 36.22C197.67 34.4 198.09 32.59 198.93 30.98C199.72 29.52 200.91 28.33 202.36 27.54C205.51 25.94 209.23 25.93 212.39 27.51C213.82 28.27 215.01 29.44 215.8 30.86C216.64 32.42 217.06 34.16 217.02 35.93C217.02 36.51 216.98 37.09 216.91 37.66V37.64ZM210.98 34.37C211.02 33.45 210.65 32.56 209.96 31.95C209.24 31.34 208.31 31.02 207.37 31.05C206.46 31.02 205.57 31.33 204.87 31.91C204.16 32.54 203.71 33.41 203.61 34.36H210.98V34.37Z"
+                    fill="#3D3A3A" />
+                <defs>
+                    <linearGradient id="paint0_linear_1_1033" x1="25.21" y1="-12.23" x2="40.97" y2="78.57"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#76CBF1" />
+                        <stop offset="0.17" stop-color="#6BC5ED" />
+                        <stop offset="0.47" stop-color="#4AB5E1" />
+                        <stop offset="0.86" stop-color="#199CD0" />
+                        <stop offset="1" stop-color="#0492C9" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
