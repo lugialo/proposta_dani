@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="svg/index2.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <!-- fonte: Montserrat -->
+    <title>Proposta TALLK.ME</title>
+    <!-- 1122 px de altura e 866px de largura por págiina -->
+    <style>
+        /* :root {
+            --title-color: #0A9CD8;
+            --subtitle-color: #222323;
+        } */
+
+        body {
+            margin: auto;
+            padding: 0;
+            font-family: 'Montserrat';
+            display: flex;
+            height: fit-content;
+            /* max-width: 595px; */
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            margin-top: 2.0939px;
+            font-size: 23.2863999999999995px;
+            margin-left: 14.11738px;
+        }
+
+        a:visited {
+            color: #000;
+        }
+
+        a:hover {
+            color: rgb(34, 34, 148);
+        }
+
+        .content-vector-1-first-page {
+            margin-top: 92.61px;
+            margin-left: 475.9158px;
+            z-index: -1;
+            position: absolute;
+        }
+
+        .content-vector-2-first-page {
+            margin-top: 116.75px;
+            margin-left: 52.06px;
+            z-index: -1;
+            position: absolute;
+        }
+
+        .content-vector-3-first-page {
+            position: absolute;
+            margin-top: 219.19px;
+            z-index: -1;
+            mix-blend-mode: multiply;
+        }
+
+        .content-vector-4-first-page {
+            position: block;
+            margin-top: 417.86px;
+            margin-right: 60px;
+        }
+
+        .footer-tallk-me-small {
+            display: block;
+            margin-left: 36%;
+        }
+
+
+        .content-div {
+            position: absolute;
+            width: 595px;
+        }
+
+        .third-page .footer-tallk-me-small img {
+            position: absolute;
+            margin-top: -180px;
+        }
+
+        .fifth-page .footer-tallk-me-small img {
+            position: absolute;
+            display: flex;
+            margin-bottom: 100px;
+        }
+
+        .title-numeration {
+            margin-top: 36.95px;
+            background: #E7E8E9;
+            display: flex;
+            font-size: 12px;
+            font-weight: 500;
+            color: #FFF;
+            margin-right: 37.53px;
+            justify-content: space-between;
+        }
+
+        .proposta-comercial {
+            margin-left: 36.63px;
+            background-color: #0A9CD8;
+            color: #FFF;
+            width: fit-content;
+            padding: 1.54px 15.97px 3.06px 15.57px;
+            border-radius: 6px;
+        }
+
+        .page-numeration {
+            align-self: center;
+            padding: 1.54px 15.97px 3.06px 15.57px;
+            background-color: #36373D;
+            border-radius: 6px;
+            width: fit-content;
+
+        }
+
+        .text-second-page {
+            margin-top: 68.02px;
+            margin-left: 36.64px;
+            justify-content: space-between;
+        }
+
+        .text-second-page-title {
+            color: #0A9CD8;
+            font-size: 17.4648px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .first-page img {
+            display: block;
+            margin-left: 36%;
+            margin-top: 54.81px;
+            margin-bottom: 33.83px;
+
+        }
+
+        .text-second-page-content {
+            color: #222323;
+            font-size: 20.3756px;
+            font-weight: 700;
+            margin: 4px 0px 3px 0px;
+        }
+
+        .tornar-cliente {
+            color: #FFF;
+            font-size: 26.19px;
+            font-weight: 800;
+            margin-top: 100px;
+            margin-left: -36px;
+            width: 866px;
+            margin-bottom: 5px;
+            background-color: #36373D;
+            text-align: center;
+            padding-top: 70.38px;
+            padding-bottom: 78.416px;
+        }
+
+        .svg-tornar-cliente-02 {
+            margin-left: -8.4px;
+        }
+
+
+        .svg-tornar-cliente {
+            margin-top: 24.13px;
+            margin-left: 433.12704px;
+            display: flex;
+        }
+
+        .third-page-pl-title {
+            color: #0A9CD8;
+            font-size: 26.1972px;
+            font-weight: 700;
+            margin-left: 37.7px;
+            margin-bottom: 22px;
+        }
+
+        .solucao {
+            font-weight: 700;
+            color: #222323;
+            font-size: 16px;
+
+            margin-bottom: 4px;
+            text-decoration: none;
+        }
+
+        .solucao li {
+            margin-left: 37.7px;
+            font-size: 14px;
+            color: #222323;
+            margin-top: 7px;
+            font-weight: 700;
+            margin-left: 17.7px;
+            margin-bottom: 7px;
+        }
+
+        .third-page-pl-subtitle {
+            color: #222323;
+        }
+
+        .svg-solucao-01 {
+            position: absolute;
+            margin-left: 580px;
+            fill: #0A9CD8;
+            stroke-width: 1px;
+            stroke: #000;
+
+            mix-blend-mode: multiply;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+        }
+
+        .svg-solucao-02 {
+            position: block;
+            margin-left: 143.5px;
+            margin-top: 50px;
+            z-index: -1;
+        }
+
+        table .first-page,
+        .second-page,
+        .third-page,
+        .fourth-page,
+        .fifth-page,
+        .sixth-page {
+            width: 866px;
+            height: 1122px;
+            margin: 0 auto;
+        }
+
+        .pl-title-text {
+            margin-left: 37.5px;
+            font-weight: 700;
+            color: #222323;
+            font-size: 23, 2px;
+            margin-bottom: 4px;
+            text-decoration: none;
+        }
+
+        .prize-table-title {
+            color: #0A9CD8;
+            font-size: 26.1972px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 65.434784px;
+            margin-bottom: 32.174340px;
+        }
+
+
+        table.prize-table-content thead {
+            color: white;
+            border-collapse: collapse;
+            background: #3F93CC;
+
+        }
+
+        .prize-table-content {
+            background: white;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .prize-table-content td {
+            padding: 7.276px;
+
+        }
+
+        table.prize-table-content {
+            border-collapse: collapse;
+            margin-left: 43.050732px;
+            margin-right: 727.7px;
+            font-size: 13.539446px;
+            width: 780.094px;
+        }
+
+        .pagamento h1 {
+            color: #0A9CD8;
+            font-size: 26.1972px;
+            text-align: center;
+            margin-block: 0px;
+            margin-top: 58.914px;
+            margin-bottom: 20.968px;
+            font-weight: 700;
+        }
+
+        .pagamento-content-01 {
+            display: flex;
+            padding: 32.36px;
+            background: #089CD8;
+            margin-left: 45.36px;
+            margin-right: 45.36px;
+
+            border-radius: 10px;
+        }
+
+
+
+        .pagamento-content-02 {
+            display: flex;
+            padding: 32.36px;
+            background: #90D2E1;
+            margin-left: 45.36px;
+            margin-right: 45.36px;
+            border-radius: 10px;
+        }
+
+        .pagamento-content-03 {
+            display: flex;
+            padding: 32.36px;
+            background: #C1E5F9;
+            margin-left: 45.36px;
+            margin-right: 45.36px;
+
+            border-radius: 10px;
+        }
+
+        .pagamento-content-text {
+            font-size: 14.539446px;
+            font-weight: 500;
+        }
+
+        .pagamento-content-price {
+            font-size: 14.539446px;
+            font-weight: 700;
+            margin-right: 72.77px;
+        }
+
+
+        .fidelity-advice {
+            font-size: 17.4648px;
+            font-weight: 500;
+            text-align: center;
+            margin: 21.39438px 0 105px;
+        }
+
+        .fifth-page-title {
+            color: #0A9CD8;
+            font-size: 26.1972px;
+            white-space: nowrap;
+            font-weight: 700;
+            margin: 95.35px 866px 35.07514px 53.30764px;
+        }
+
+
+        .fifth-page-content {
+            margin-bottom: 100.5px;
+        }
+
+        .fifth-page-content svg {
+            position: absolute;
+            margin-left: 600px;
+            margin-top: -140px;
+            z-index: -1;
+        }
+
+        .fifth-page-content li {
+            margin-left: 53.31px;
+            color: #222323;
+            margin-bottom: 21.831px;
+            font-size: 17.4648px;
+            font-weight: 700;
+        }
+
+        .sixth-page-title {
+            color: #0A9CD8;
+            /* margin-top: 300.47912px; */
+            margin-left: 58.2159px;
+            margin-bottom: 25.54227px;
+            font-family: Montserrat;
+            font-size: 81.5024px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .icon-container {
+            display: flex;
+            margin-bottom: 12.123482px;
+        }
+
+        .icon-container text {
+            margin-top: 5.0939px;
+            font-size: 23.2863999999999995px;
+            margin-left: 14.11738px;
+        }
+
+
+        .icon-container img {
+            margin-left: 57.92492px;
+            width: 37.723968px;
+            height: 37.723968px;
+        }
+
+        .svg-sixth-page-01 {
+            margin-top: -60px;
+            margin-left: 729px;
+        }
+
+        .svg-sixth-page-02 {
+            position: absolute;
+            margin-left: 145.5px;
+            margin-top: -225px;
+            z-index: -1;
+        }
+
+        .vector-second-page {
+            margin-left: 685px;
+            position: absolute;
+        }
+
+        .third-page-pl-title {
+            color: #0A9CD8;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first-page" style="page-break-after: always;">
+
+        <svg class="content-vector-1-first-page" xmlns="http://www.w3.org/2000/svg" width="352" height="293"
+            viewBox="0 0 352 293" fill="none">
+            <path
+                d="M251.201 293H41.3833C13.9594 293 -5.87514 266.793 1.58289 240.412L60.999 30.1025C66.0342 12.2862 82.2931 0 100.799 0H310.617C338.041 0 357.875 26.2066 350.417 52.5882L291.001 262.897C285.966 280.714 269.707 293 251.201 293Z"
+                fill="#129CD8" />
+        </svg>
+
+        <svg class="content-vector-2-first-page" xmlns="http://www.w3.org/2000/svg" width="706" height="572"
+            viewBox="0 0 706 572" fill="none">
+            <path
+                d="M518.923 571.955H53.4442C18.024 571.955 -7.58231 538.066 2.04195 503.943L133.223 38.9412C139.727 15.9006 160.711 0 184.626 0H659.612C690.264 0 712.428 29.3337 704.102 58.8718L570.34 533.029C563.836 556.069 542.852 571.97 518.937 571.97L518.923 571.955Z"
+                fill="#E7E8E9" />
+        </svg>
+
+        <svg class="content-vector-3-first-page" xmlns="http://www.w3.org/2000/svg" width="669" height="547"
+            viewBox="0 0 669 547" fill="none">
+            <path
+                d="M489.283 545.214H58.5777C21.0871 545.214 -6.02664 509.382 4.16102 473.302L125.671 43.1733C132.555 18.8244 154.778 2 180.087 2H610.792C648.283 2 675.397 37.832 665.209 73.9113L543.714 504.04C536.83 528.389 514.606 545.214 489.297 545.214H489.283Z"
+                stroke="#129CD8" stroke-width="3" stroke-miterlimit="10" />
+        </svg>
+
+
+        <svg class="content-vector-4-first-page" xmlns="http://www.w3.org/2000/svg" width="792" height="540"
+            viewBox="0 0 792 540" fill="none">
+            <g>
+                <path
+                    d="M744.487 0H1.83259L0 539.953H622.797C643.936 539.953 662.503 525.509 668.257 504.595L789.932 61.7636C798.442 30.7723 775.797 0 744.473 0H744.487Z"
+                    fill="#129CD8" />
+                <text x="83" y="260.4" fill="white" font-size="81.5" font-weight="900" line-height="normal"
+                    font-style="normal">
+                    TALLK.ME
+                </text>
+                <text x="98" y="290.4" fill="white" font-size="26.1972" font-style="normal" line-height="normal"
+                    letter-spacing="3.6px">
+                    PROPOSTA COMERCIAL | 2024
+                </text>
+            </g>
+        </svg>
+
+        <div class="footer-tallk-me-big" style="margin-top: 54.81px ; margin-bottom: 33.83px;">
+            <img src="https://images2.imgbox.com/6d/60/5jcJJnA6_o.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="second-page" style="page-break-after: always;">
+
+
+        <table class="title-numeration">
+            <tr>
+
+                <td style="padding-right: 30px;">
+
+                </td>
+                <td class="proposta-comercial">
+                    Proposta Comercial
+                </td>
+
+                <td style="padding-left: 589px;">
+
+                </td>
+
+                <td class="page-numeration">
+                    02
+                </td>
+            </tr>
+        </table>
+        <div class="text-second-page">
+            <div class="text-second-page-title">
+                DADOS DA EMPRESA
+
+                <div class="vector-second-page">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="147" height="399" viewBox="0 0 147 399" fill="none">
+                        <g style="mix-blend-mode:multiply">
+                            <path
+                                d="M146.367 0V398.35H56.2823C18.9898 398.35 -7.97781 362.722 2.14605 326.855L82.9484 40.9511C89.794 16.747 111.901 0.0125567 137.085 0.0125567H146.367V0Z"
+                                fill="#0A9CD8" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="text-second-page-content">
+                Empresa: {{ oportunidade.empresa.nome }}
+            </div>
+
+            <div class="text-second-page-content">
+                CNPJ: {{ oportunidade.empresa.cnpj }}
+            </div>
+
+            <div class="text-second-page-content">
+                Nome do responsável: {{ oportunidade.pessoa.nome }}
+            </div>
+
+            <div style="margin-bottom: 58.288222px;"></div>
+
+            <div class="text-second-page-title">
+                VALIDADE DA PROPOSTA
+            </div>
+
+            <div class="text-second-page-content">
+                Data:
+            </div>
+
+            <div class="text-second-page-content">
+                Dias:
+            </div>
+
+            <div style="margin-bottom: 58.589518px;"></div>
+
+            <div class="text-second-page-title">
+                NÚMERO DA PROPOSTA
+            </div>
+
+            <div class="text-second-page-content">
+                {{ nro_orcamento }}
+            </div>
+
+            <div style="margin-bottom: 62.97px;"></div>
+
+            <div class="tornar-cliente">
+                COMO SE TORNAR UM CLIENTE
+
+                <br>
+                <div class="svg-tornar-cliente">
+                    <svg width="190" height="154" viewBox="0 0 190 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M172.165 0H17.1146C7.66246 0 0 7.66287 0 17.1155V135.949C0 145.401 7.66246 153.064 17.1146 153.064H172.165C181.617 153.064 189.28 145.401 189.28 135.949V17.1155C189.28 7.66287 181.617 0 172.165 0Z"
+                            fill="#90D1E1" />
+                    </svg>
+
+                    <svg width="190" height="154" viewBox="0 0 190 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M171.941 0.187744H18.0036C8.61921 0.187744 1.01172 7.79061 1.01172 17.1692V135.072C1.01172 144.451 8.61921 152.053 18.0036 152.053H171.941C181.326 152.053 188.933 144.451 188.933 135.072V17.1692C188.933 7.79061 181.326 0.187744 171.941 0.187744Z"
+                            fill="#C1E5F9" />
+                    </svg>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="divisor">
+
+        </div>
+
+        <div class="footer-tallk-me-small" style="display: flex; margin-top: 50px; margin-bottom: 40px;">
+            <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+    <div class="divisor">
+
+    </div>
+
+
+    </div>
+
+    <div class="third-page" style="page-break-after: always;">
+
+        <table class="title-numeration">
+            <tr>
+
+                <td style="padding-right: 30px;">
+
+                </td>
+                <td class="proposta-comercial">
+                    Proposta Comercial
+                </td>
+
+                <td style="padding-left: 588px;">
+
+                </td>
+
+                <td class="page-numeration">
+                    03
+                </td>
+            </tr>
+        </table>
+
+        <div class="content-third-page">
+            <div style="margin-bottom: 67.54px;"></div>
+            <div class="third-page-pl-title">
+                SOLUÇÃO
+            </div>
+
+            <li class="pl-title-text">Instant Call Center</li>
+            <li class="pl-title-text">0800</li>
+            <li class="pl-title-text">WhatsApp</li>
+
+            <div style="margin-bottom: 54.8px;"></div>
+
+            <div class="third-page-pl-title">
+                SOLUÇÃO DETALHADA
+            </div>
+            <ul class="solucao">
+                Instant Call Center
+
+                <li>Ativo</li>
+                <li>10 horas faladas válidas por 90 dias</li>
+                <li>Atendentes de 8h às 20h</li>
+
+            </ul>
+
+            <div style="margin-bottom: 29px;"></div>
+
+            <ul class="solucao">
+                0800 Básico
+
+                <svg class="svg-solucao-01" xmlns="http://www.w3.org/2000/svg" width="147" height="385"
+                    viewBox="0 0 147 385" fill="none">
+                    <g style="mix-blend-mode:multiply" filter="url(#filter0_d_450_2)">
+                        <path
+                            d="M142.161 0V376.235H57.1251C21.9202 376.235 -3.53382 342.586 6.02781 308.704L82.3026 38.6699C88.7643 15.8056 109.634 0 133.4 0H142.161Z"
+                            fill="#0A9CD8" />
+                        <path
+                            d="M141.661 0.5V375.735H57.1251C22.2519 375.735 -2.96263 342.403 6.50902 308.84L82.7837 38.8059C82.7837 38.8059 82.7837 38.8059 82.7837 38.8058C89.1847 16.1567 109.858 0.5 133.4 0.5H141.661Z"
+                            stroke="black" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_d_450_2" x="0" y="0" width="146.161" height="384.235"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset dy="4" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_450_2" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_450_2" result="shape" />
+                        </filter>
+                    </defs>
+                </svg>
+
+
+                <li>5 ramais</li>
+                <li>5 canais receptivos</li>
+                <li>Converte R$ 100,00 de crédito</li>
+
+            </ul>
+
+            <ul class="solucao">
+                Tallk.me WhatsApp
+
+                <li>5 acessos</li>
+                <li>1 canal</li>
+            </ul>
+
+
+
+
+
+
+
+
+        </div>
+
+        <svg class="svg-solucao-02" width="722" height="401" viewBox="0 0 722 401" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_450_19)">
+                <path
+                    d="M722.597 0.291138V402.631H57.9386C20.2878 402.631 -6.94241 366.654 3.28893 330.415L84.8631 41.6385C91.7762 17.1881 114.087 0.291138 139.513 0.291138H722.597Z"
+                    fill="#E7E8E9" />
+            </g>
+            <defs>
+                <clipPath id="clip0_450_19">
+                    <rect width="721.87" height="400.23" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+
+
+
+        <div class="footer-tallk-me-small" style="display: flex; margin-top: 50px; margin-bottom: 36.24px;">
+            <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="fourth-page" style="page-break-after: always;">
+
+        <table class="title-numeration">
+            <tr>
+
+                <td style="padding-right: 30px;">
+
+                </td>
+                <td class="proposta-comercial">
+                    Proposta Comercial
+                </td>
+
+                <td style="padding-left: 587px;">
+
+                </td>
+
+                <td class="page-numeration">
+                    04
+                </td>
+            </tr>
+        </table>
+
+        <div class="prize-table">
+            <div class="prize-table-title">
+                VALORES E PRAZOS
+            </div>
+
+            <table class="prize-table-content">
+                <div class="table-head-background">
+                    <thead>
+                        <tr class="table-head">
+                            <th style="padding: 5px;" scope="col">N°</th>
+                            <th scope="col">SERVIÇO</th>
+                            <th scope="col">QTD.</th>
+                            <th scope="col">VALOR <br>INDIVIDUAL</th>
+                            <th scope="col">SUBTOTAL</th>
+                            <th scope="col">DESCONTO</th>
+                            <th scope="col">VALOR <br>INDIVIDUAL</th>
+                            <th scope="col">DURAÇÃO</th>
+                            <th scope="col">PAGAMENTO</th>
+
+                        </tr>
+
+                    </thead>
+                </div>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>INSTANT<br>ATIVO</td>
+                        <td>10<br>horas<br>faladas</td>
+                        <td>R$ 119,70</td>
+                        <td>r$<br>1.197,00</td>
+                        <td>10%</td>
+                        <td>1.077,30</td>
+                        <td>1 mês</td>
+                        <td>pontual</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>script</td>
+                        <td>1</td>
+                        <td>r$ 200,00</td>
+                        <td>r$ 200,00</td>
+                        <td>0</td>
+                        <td>200,00</td>
+                        <td>1 mês</td>
+                        <td>pontual</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>ativação</td>
+                        <td>1</td>
+                        <td>r$ 440,00</td>
+                        <td>r$ 440,00</td>
+                        <td>0</td>
+                        <td>440,00</td>
+                        <td>1 mês</td>
+                        <td>pontual</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>0800<br>básico</td>
+                        <td>1</td>
+                        <td>r$ 150,00</td>
+                        <td>r$ 150,00</td>
+                        <td>0</td>
+                        <td>150,00</td>
+                        <td>12 meses</td>
+                        <td>recorrente</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>tallk.me<br>whatsapp</td>
+                        <td>1</td>
+                        <td>r$ 250,00</td>
+                        <td>r$ 250,00</td>
+                        <td>0</td>
+                        <td>250,00</td>
+                        <td>12 meses</td>
+                        <td>recorrente</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>taxa</td>
+                        <td>1</td>
+                        <td>r$ 3,50</td>
+                        <td>r$ 3,50</td>
+                        <td>0</td>
+                        <td>3,50</td>
+                        <td>12 meses</td>
+                        <td>recorrente</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <div class="pagamento">
+            <h1>PAGAMENTO</h1>
+
+            <div class="pagamento-content">
+                <div class="pagamento-content-01">
+                    <div class="pagamento-content-text">
+                        TOTAL (Primeiro pagamento)
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>R$
+                            2.120,80</strong>
+                    </div>
+                    <!-- <div class="pagamento-content-price" style="margin-left: 300px;">
+                        R$ 2.120,80
+                    </div> -->
+                </div>
+                <div class="pagamento-content-02">
+                    <div class="pagamento-content-text">
+                        PAGAMENTO PONTUAL (Pago uma 1 x)
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>R$
+                            1.717,30</strong>
+                    </div>
+                    <!-- <div class="pagamento-content-price" style="margin-left: 230px;">
+                        R$ 1.717,30
+                    </div> -->
+                </div>
+                <div class="pagamento-content-03">
+                    <div class="pagamento-content-text">
+                        PAGAMENTO RECORRENTE (Todo mês)
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <strong>R$ 403,50</strong>
+                    </div>
+                    <!-- <div class="pagamento-content-price" style="margin-left: 227px;">
+                        R$ 403,50
+                    </div> -->
+                </div>
+            </div>
+            <div class="fidelity-advice">
+                Sem fidelidade - Pós pago - Aviso de cancelamento 60 dias
+            </div>
+
+            <div class="footer-tallk-me-small" style="display: flex; margin-top: 36.31px; margin-bottom: 36.24px;">
+                <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fifth-page" style="page-break-after: always;">
+
+        <table class="title-numeration">
+            <tr>
+
+                <td style="padding-right: 30px;">
+
+                </td>
+                <td class="proposta-comercial">
+                    Proposta Comercial
+                </td>
+
+                <td style="padding-left: 589px;">
+
+                </td>
+
+                <td class="page-numeration">
+                    05
+                </td>
+            </tr>
+        </table>
+
+        <div class="fifth-page-content">
+            <div class="fifth-page-title">
+                FUNCIONALIDADES INCLUSAS
+            </div>
+            <li>Dashboard</li>
+            <li>Interligação matriz/filial</li>
+            <li>Múltiplos ramais</li>
+            <li>Gravação de chamadas</li>
+            <li>Extrato de ligações efetuadas e recebidas</li>
+            <svg class="svg-fifth-page-svg-01" xmlns="http://www.w3.org/2000/svg" width="267.5175" height="792.126"
+                viewBox="0 0 185 548" fill="none">
+                <path
+                    d="M337.55 571.89H41.6099C15.8499 571.89 -2.78004 534.32 4.21996 496.49L87.7 45.52C92.43 19.98 107.7 2.34998 125.09 2.34998H421.03C446.79 2.34998 465.42 39.92 458.42 77.75L374.94 528.72C370.21 554.26 354.94 571.89 337.55 571.89Z"
+                    stroke="#129CD8" stroke-width="3.71" stroke-miterlimit="10" />
+            </svg>
+            <li>Espião (acompanhamento de chamadas)</li>
+            <li>Interação para treinamento de operadores</li>
+            <li>Gerenciamento, controle e automação</li>
+            <li>Filas de Atendimento</li>
+            <li>Sintetização de voz</li>
+            <li>URA c/ menus e submenus</li>
+            <li>Caixa Postal</li>
+            <li>Pesquisa de satisfação</li>
+            <li>Sala de Conferência</li>
+            <li>API de integração</li>
+            <li>CallBack</li>
+        </div>
+
+        <div class="divisor"></div>
+
+        <div class="footer-tallk-me-small" style="display: flex; margin-top: 36.31px; margin-bottom: 36.24px;">
+            <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
+        </div>
+    </div>
+
+    <div class="sixth-page" style="page-break-after: always; display: block;">
+
+        <div class="sixth-page-divisor" style="height: 300px;">
+
+        </div>
+
+        <div class="sixth-page-content">
+            <div class="sixth-page-title">OBRIGADO!</div>
+        </div>
+
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/gMrCKB9/local.png">
+            <a href="https://www.google.com/maps/place/Brasil+Connecting/@-28.6815785,-49.3813828,17z/data=!3m1!4b1!4m6!3m5!1s0x92a48c0e5384780b:0x4c295036d26894eb!8m2!3d-28.6815786!4d-49.3765119!16s%2Fg%2F11g_lglvm?entry=ttu"
+                target="_blank">
+                <text>Criciúma, Santa Catarina</text>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/PGjpV91/telephone.png">
+            <a href="https://api.whatsapp.com/send/?phone=4831988395&text=Ol%C3%A1!&type=phone_number&app_absent=0"
+                target="_blank">
+                <text>(48) 3198-8395</text>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/NYHBMzY/www.png">
+            <a href="http://tallk.me" target="_blank">
+                <text>https://tallk.me</text>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <img src="https://i.ibb.co/Mks2Kwv/email.png">
+            <a href="mailto:atendimento@tallk.me" target="_blank">
+                <text>atendimento@tallk.me</text>
+            </a>
+        </div>
+
+
+        <div class="svg-sixth-page-01">
+            <svg xmlns="http://www.w3.org/2000/svg" width="139" height="376" viewBox="0 0 139 376" fill="none">
+                <g style="mix-blend-mode:multiply">
+                    <path
+                        d="M138.161 0V375.725H53.1251C17.9202 375.725 -7.53383 342.122 2.02781 308.286L78.3026 38.6176C84.7644 15.7842 105.634 0 129.4 0H138.161Z"
+                        fill="#0A9CD8" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="svg-sixth-page-02">
+            <svg xmlns="http://www.w3.org/2000/svg" width="722" height="403" viewBox="0 0 722 403" fill="none">
+                <path
+                    d="M721.485 0V402.345H56.8204C19.1693 402.345 -8.06114 366.368 2.1703 330.128L83.7453 41.3479C90.6584 16.8972 112.97 0 138.395 0H721.485Z"
+                    fill="#E7E8E9" />
+            </svg>
+        </div>
+
+        <div class="footer-tallk-me-big" style="display: flex; margin-left: 37%;">
+            <img src="https://images2.imgbox.com/6d/60/5jcJJnA6_o.png" alt="">
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
