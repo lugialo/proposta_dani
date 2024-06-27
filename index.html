@@ -160,7 +160,7 @@
             margin-bottom: 5px;
             background-color: #36373D;
             text-align: center;
-            padding-top: 70.38px;
+            padding-top: 30.38px;
             padding-bottom: 78.416px;
         }
 
@@ -187,7 +187,7 @@
             font-weight: 700;
             color: #222323;
             font-size: 16px;
-
+            position: absolute;
             margin-bottom: 4px;
             text-decoration: none;
         }
@@ -208,20 +208,20 @@
 
         .svg-solucao-01 {
             position: absolute;
-            margin-left: 580px;
+            margin-top: 350px;
+            margin-left: 719px;
             fill: #0A9CD8;
             stroke-width: 1px;
             stroke: #000;
-
             mix-blend-mode: multiply;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
         }
 
         .svg-solucao-02 {
-            position: block;
+            position: absolute;
             margin-left: 143.5px;
-            margin-top: 50px;
+            margin-top: 515px;
             z-index: -1;
         }
 
@@ -338,7 +338,7 @@
             font-size: 17.4648px;
             font-weight: 500;
             text-align: center;
-            margin: 21.39438px 0 105px;
+            margin: 21.39438px 0 179px;
         }
 
         .fifth-page-title {
@@ -407,7 +407,7 @@
         .svg-sixth-page-02 {
             position: absolute;
             margin-left: 145.5px;
-            margin-top: -225px;
+            margin-top: -290px;
             z-index: -1;
         }
 
@@ -527,17 +527,15 @@
             </div>
 
             <div class="text-second-page-content">
-                Data:
+                Data: {{ validade }}
             </div>
 
-            <div class="text-second-page-content">
-                Dias:
-            </div>
+
 
             <div style="margin-bottom: 58.589518px;"></div>
 
             <div class="text-second-page-title">
-                NÚMERO DA PROPOSTA
+                NÚMERO DA PROPOSTA:
             </div>
 
             <div class="text-second-page-content">
@@ -547,8 +545,6 @@
             <div style="margin-bottom: 62.97px;"></div>
 
             <div class="tornar-cliente">
-                COMO SE TORNAR UM CLIENTE
-
                 <br>
                 <div class="svg-tornar-cliente">
                     <svg width="190" height="154" viewBox="0 0 190 154" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -573,9 +569,9 @@
 
         </div>
 
-        <div class="footer-tallk-me-small" style="display: flex; margin-top: 50px; margin-bottom: 40px;">
+        <!-- <div class="footer-tallk-me-small" style="display: flex; margin-top: 100px; margin-bottom: 40px;">
             <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
-        </div>
+        </div> -->
 
 
     </div>
@@ -598,11 +594,11 @@
                 <td style="padding-right: 30px;">
 
                 </td>
-                <td class="proposta-comercial">
+                <td class="proposta-comercial" style="white-space: nowrap;">
                     Proposta Comercial
                 </td>
 
-                <td style="padding-left: 588px;">
+                <td style="padding-left: 589px;">
 
                 </td>
 
@@ -614,13 +610,6 @@
 
         <div class="content-third-page">
             <div style="margin-bottom: 67.54px;"></div>
-            <div class="third-page-pl-title">
-                SOLUÇÃO
-            </div>
-
-            <li class="pl-title-text">Instant Call Center</li>
-            <li class="pl-title-text">0800</li>
-            <li class="pl-title-text">WhatsApp</li>
 
             <div style="margin-bottom: 54.8px;"></div>
 
@@ -628,6 +617,10 @@
                 SOLUÇÃO DETALHADA
             </div>
             <ul class="solucao">
+                {{ observacao }}
+
+            </ul>
+            <!-- <ul class="solucao">
                 Instant Call Center
 
                 <li>Ativo</li>
@@ -639,55 +632,45 @@
             <div style="margin-bottom: 29px;"></div>
 
             <ul class="solucao">
-                0800 Básico
+                0800 Básico -->
 
-                <svg class="svg-solucao-01" xmlns="http://www.w3.org/2000/svg" width="147" height="385"
-                    viewBox="0 0 147 385" fill="none">
-                    <g style="mix-blend-mode:multiply" filter="url(#filter0_d_450_2)">
-                        <path
-                            d="M142.161 0V376.235H57.1251C21.9202 376.235 -3.53382 342.586 6.02781 308.704L82.3026 38.6699C88.7643 15.8056 109.634 0 133.4 0H142.161Z"
-                            fill="#0A9CD8" />
-                        <path
-                            d="M141.661 0.5V375.735H57.1251C22.2519 375.735 -2.96263 342.403 6.50902 308.84L82.7837 38.8059C82.7837 38.8059 82.7837 38.8059 82.7837 38.8058C89.1847 16.1567 109.858 0.5 133.4 0.5H141.661Z"
-                            stroke="black" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_d_450_2" x="0" y="0" width="146.161" height="384.235"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset dy="4" />
-                            <feGaussianBlur stdDeviation="2" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_450_2" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_450_2" result="shape" />
-                        </filter>
-                    </defs>
-                </svg>
-
-
-                <li>5 ramais</li>
+            <svg class="svg-solucao-01" xmlns="http://www.w3.org/2000/svg" width="147" height="385"
+                viewBox="0 0 147 385" fill="none">
+                <g style="mix-blend-mode:multiply" filter="url(#filter0_d_450_2)">
+                    <path
+                        d="M142.161 0V376.235H57.1251C21.9202 376.235 -3.53382 342.586 6.02781 308.704L82.3026 38.6699C88.7643 15.8056 109.634 0 133.4 0H142.161Z"
+                        fill="#0A9CD8" />
+                    <path
+                        d="M141.661 0.5V375.735H57.1251C22.2519 375.735 -2.96263 342.403 6.50902 308.84L82.7837 38.8059C82.7837 38.8059 82.7837 38.8059 82.7837 38.8058C89.1847 16.1567 109.858 0.5 133.4 0.5H141.661Z"
+                        stroke="black" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_450_2" x="0" y="0" width="146.161" height="384.235"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_450_2" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_450_2" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+            <!-- <li>5 ramais</li>
                 <li>5 canais receptivos</li>
-                <li>Converte R$ 100,00 de crédito</li>
+                <li>Converte R$ 100,00 de crédito</li> -->
 
-            </ul>
+            <!-- </ul>
 
             <ul class="solucao">
                 Tallk.me WhatsApp
 
                 <li>5 acessos</li>
                 <li>1 canal</li>
-            </ul>
-
-
-
-
-
-
-
-
+            </ul> -->
         </div>
 
         <svg class="svg-solucao-02" width="722" height="401" viewBox="0 0 722 401" fill="none"
@@ -706,243 +689,662 @@
 
 
 
-        <div class="footer-tallk-me-small" style="display: flex; margin-top: 50px; margin-bottom: 36.24px;">
+        <!-- <div class="footer-tallk-me-small" style="display: flex; margin-top: 990px; margin-bottom: 36.24px;">
             <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
-        </div>
+        </div> -->
     </div>
 
+    <div style="page-break-after: always;">
+        <div class="fourth-page">
 
-    <div class="fourth-page" style="page-break-after: always;">
+            <table class="title-numeration">
+                <tr>
 
-        <table class="title-numeration">
-            <tr>
+                    <td style="padding-right: 30px;">
 
-                <td style="padding-right: 30px;">
+                    </td>
+                    <td class="proposta-comercial">
+                        Proposta Comercial
+                    </td>
 
-                </td>
-                <td class="proposta-comercial">
-                    Proposta Comercial
-                </td>
+                    <td style="padding-left: 587px;">
 
-                <td style="padding-left: 587px;">
+                    </td>
 
-                </td>
-
-                <td class="page-numeration">
-                    04
-                </td>
-            </tr>
-        </table>
-
-        <div class="prize-table">
-            <div class="prize-table-title">
-                VALORES E PRAZOS
-            </div>
-
-            <table class="prize-table-content">
-                <div class="table-head-background">
-                    <thead>
-                        <tr class="table-head">
-                            <th style="padding: 5px;" scope="col">N°</th>
-                            <th scope="col">SERVIÇO</th>
-                            <th scope="col">QTD.</th>
-                            <th scope="col">VALOR <br>INDIVIDUAL</th>
-                            <th scope="col">SUBTOTAL</th>
-                            <th scope="col">DESCONTO</th>
-                            <th scope="col">VALOR <br>INDIVIDUAL</th>
-                            <th scope="col">DURAÇÃO</th>
-                            <th scope="col">PAGAMENTO</th>
-
-                        </tr>
-
-                    </thead>
-                </div>
-
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>INSTANT<br>ATIVO</td>
-                        <td>10<br>horas<br>faladas</td>
-                        <td>R$ 119,70</td>
-                        <td>r$<br>1.197,00</td>
-                        <td>10%</td>
-                        <td>1.077,30</td>
-                        <td>1 mês</td>
-                        <td>pontual</td>
-                    </tr>
-
-                    <tr>
-                        <td>2</td>
-                        <td>script</td>
-                        <td>1</td>
-                        <td>r$ 200,00</td>
-                        <td>r$ 200,00</td>
-                        <td>0</td>
-                        <td>200,00</td>
-                        <td>1 mês</td>
-                        <td>pontual</td>
-                    </tr>
-
-                    <tr>
-                        <td>3</td>
-                        <td>ativação</td>
-                        <td>1</td>
-                        <td>r$ 440,00</td>
-                        <td>r$ 440,00</td>
-                        <td>0</td>
-                        <td>440,00</td>
-                        <td>1 mês</td>
-                        <td>pontual</td>
-                    </tr>
-
-                    <tr>
-                        <td>4</td>
-                        <td>0800<br>básico</td>
-                        <td>1</td>
-                        <td>r$ 150,00</td>
-                        <td>r$ 150,00</td>
-                        <td>0</td>
-                        <td>150,00</td>
-                        <td>12 meses</td>
-                        <td>recorrente</td>
-                    </tr>
-
-                    <tr>
-                        <td>5</td>
-                        <td>tallk.me<br>whatsapp</td>
-                        <td>1</td>
-                        <td>r$ 250,00</td>
-                        <td>r$ 250,00</td>
-                        <td>0</td>
-                        <td>250,00</td>
-                        <td>12 meses</td>
-                        <td>recorrente</td>
-                    </tr>
-
-                    <tr>
-                        <td>6</td>
-                        <td>taxa</td>
-                        <td>1</td>
-                        <td>r$ 3,50</td>
-                        <td>r$ 3,50</td>
-                        <td>0</td>
-                        <td>3,50</td>
-                        <td>12 meses</td>
-                        <td>recorrente</td>
-                    </tr>
-
-                </tbody>
-
+                    <td class="page-numeration">
+                        04
+                    </td>
+                </tr>
             </table>
 
-        </div>
+            <!-- Tabela de produtos -->
 
-        <div class="pagamento">
-            <h1>PAGAMENTO</h1>
+            <!-- TABELA DE PRODUTOS E SERVIÇOS -->
+            {% if itens|length > 0 %}<br>
+            {% set columns = 0 %}
+            <strong>Produtos e Serviços:</strong><br>
+            <table class="table">
+                <thead>
 
-            <div class="pagamento-content">
-                <div class="pagamento-content-01">
-                    <div class="pagamento-content-text">
-                        TOTAL (Primeiro pagamento)
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>R$
-                            2.120,80</strong>
+
+                    {% if print_foto %}
+                    <th class="center">Foto</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_categoria %}
+                    <th class="center">Cat.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_referencia %}
+                    <th class="center">Ref.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    <th>Serviço</th>
+                    {% set columns = columns + 1 %}
+
+                    {% if print_quantidade %}
+                    <th class="center">Qtd.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_tipo %}
+                    <th class="center">Tipo</th>
+                    {% set columns = columns + 1 %}
+                    {% endif%}
+
+                    {% if print_quantidade and print_unit_value %}
+                    <th class="center">Valor Unit.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_ipi %}
+                    <th class="center">IPI</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_desconto %}
+                    <th class="center">Desconto</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_show_sub_values %}
+                    <th><span class="pull-right">Subtotal</span></th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+                </thead>
+                <tbody class="itens">
+                    {% for item in itens %}
+                    <tr class="main">
+
+
+                        {% if print_foto %}
+                        <td class="center"><img src="{{ item['foto'] }}" class="img-responsive logo" width="40"
+                                height="40">
+                        </td>
+                        {% endif %}
+
+                        {% if print_categoria %}
+                        <td class="center">{{ item['categoria'] }}</td>
+                        {% endif %}
+
+                        {% if print_referencia %}
+                        <td class="center">{{ item['referencia'] }}</td>
+                        {% endif %}
+
+                        <td>{{ item['nome'] }}</td>
+
+                        {% if print_quantidade %}
+                        <td class="center">{{ item['quantidade'] }}</td>
+                        {% endif %}
+
+                        {% if print_tipo %}
+                        <td class="center">{{ item['tipo'] }}</td>
+                        {% endif %}
+
+                        {% if print_quantidade and print_unit_value %}
+                        <td class="center" style="white-space:nowrap; text-align: right;">{{ item['valor_unitario'] }}
+                        </td>
+                        {% endif %}
+
+                        {% if print_ipi %}
+                        <td class="center" style="white-space:nowrap; text-align: right;">{{ item['ipi_calc'] }}<br>({{
+                            item['ipi_tax'] }} %)</td>
+                        {% endif %}
+
+                        {% if print_desconto %}
+                        <td class="center" style="white-space:nowrap;">{{ item['desconto'] }}</td>
+                        {% endif %}
+                        {% if print_show_sub_values %}
+                        <td><span class="pull-right" style="white-space:nowrap; text-align: right;">{{ item['subtotal']
+                                }}</span></td>
+                        {% endif %}
+                    </tr>
+                    {% if item['descricao_ar'] and item['descricao_ar']|length > 0 %}
+                    {% for descricao in item['descricao_ar'] %}
+                    <tr class="justify">
+                        <td colspan="{{ columns }}" style="border: none;">{{ descricao }}</td>
+                    </tr>
+                    {% endfor %}
+                    {% elif item['descricao'] %}
+                    <tr class="justify">
+                        <td colspan="{{ columns }}" style="border: none;">{{ item['descricao'] }}</td>
+                    </tr>
+                    {% endif %}
+                    {% if print_caracteristicas and item['caracteristicas'] %}
+                    <tr class="justify">
+                        <td colspan="{{ columns }}" style="border: none;">Características:<br>{{ item['caracteristicas']
+                            }}
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <hr>
+
+            <!-- TABELA DE TOTAL DE PRODUTOS PAGINA 1-->
+            <!-- <div class="row">
+            <div class="col-xs-6 pull-right totais">
+                {% if total['produto'] or total['servico'] %}
+                <div style="font-weight:bold; text-align: left;">
+                    Resumo da Proposta:
+                    <hr style="margin:6px 0 6px 0;">
+                </div>
+                <div class="totais">
+                    {% if total['produto'] %}
+                    <div class="row total">
+                        <div class="col-xs-6">
+                            <b class="pull-left">Subtotal em Produtos:</b>
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right">{{ total['produto'] }}</p>
+                        </div>
                     </div>
-                    <!-- <div class="pagamento-content-price" style="margin-left: 300px;">
+                    {% endif %}
+                    {% if total['servico'] %}
+                    <div class="row total">
+                        <div class="col-xs-6">
+                            <b class="pull-left" style="white-space:nowrap;">Subtotal em Serviços:</b>
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right" style="white-space:nowrap;">{{ total['servico'] }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if print_frete and frete['tipo'] and frete['tipo']|string() == 1|string() %}
+                    <div class="row total">
+                        <div class="col-xs-6">
+                            <b class="pull-left">Frete:</b>
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right" style="white-space:nowrap;">{{ frete['valor'] }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if print_show_sub_values %}
+                    {% if total['subtotal'] %}
+                    <div class="row total">
+                        <div class="col-xs-6">
+                            <b class="pull-left" style="white-space:nowrap;">Subtotal Geral:</b>
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right" style="white-space:nowrap;">{{ total['subtotal'] }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endif %}
+                    {% if desconto['desconto_raw'] %}
+                    <div class="row total">
+                        <div class="col-xs-6">
+                            <b class="pull-left" style="white-space:nowrap;">Desconto:</b>
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right" style="white-space:nowrap;">({{ desconto['secundario'] }}) {{
+                                desconto['primario'] }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if print_frete and frete['tipo'] and frete['const']|string() == 2|string() %}
+                    <div class="row total">
+                        <div class="col-xs-6">
+                            <b>Frete FOB</b>
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right" style="white-space:nowrap;">
+                                {{ frete['valor'] }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if total['total'] %}
+                    <div class="row total">
+                        <hr style="margin:6px 0 6px 0;">
+                        <div class="col-xs-6">
+                            <b style="white-space:nowrap;">Valor Final</b>:
+                        </div>
+                        <div class="col-xs-6">
+                            <p class="pull-right" style="white-space:nowrap;">
+                                {{ total['total'] }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </div>
+                {% endif %}
+
+
+            </div>
+
+            <div class="col-xs-6 pull-right totais">
+                {% if objeto_pagamento %}
+                <div style="font-weight:bold; text-align: left;">
+                    {{ objeto_pagamento['descricao'] }}
+                    <hr style="margin:6px 0 6px 0;">
+                </div>
+
+                <div class="totais">
+                    {% if objeto_pagamento['entrada'] %}
+                    <div class="row total">
+                        {% if disable_vencimento %}
+                        <div class="col-xs-4">
+                            <b class="pull-left">{{ objeto_pagamento['entrada']['texto'] }}</b>
+                        </div>
+                        <div class="col-xs-4">
+                            <p class="pull-right" style="white-space:nowrap;">{{ objeto_pagamento['entrada']['valor'] }}
+                            </p>
+                        </div>
+                        <div class="col-xs-4">
+                            <p class="pull-right">{{ objeto_pagamento['entrada']['meio_pagamento'] }}</p>
+                        </div>
+                        {% else %}
+                        <div class="col-xs-3">
+                            <b class="pull-left">{{ objeto_pagamento['entrada']['texto'] }}</b>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="pull-right" style="white-space:nowrap;">{{ objeto_pagamento['entrada']['valor'] }}
+                            </p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="pull-right">{{ objeto_pagamento['entrada']['prazo'] }}</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="pull-right">{{ objeto_pagamento['entrada']['meio_pagamento'] }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    {% if objeto_pagamento['parcelas'] %}
+                    {% for parcela in objeto_pagamento['parcelas'] %}
+                    <div class="row total">
+                        {% if disable_vencimento %}
+                        <div class="col-xs-4">
+                            <b class="pull-left">{{ parcela['texto'] }}:</b>
+                        </div>
+                        <div class="col-xs-4">
+                            <p class="pull-right" style="white-space:nowrap;">{{ parcela['valor'] }}</p>
+                        </div>
+                        <div class="col-xs-4">
+                            <p class="pull-right">{{ parcela['meio_pagamento'] }}</p>
+                        </div>
+                        {% else %}
+                        <div class="col-xs-3">
+                            <b class="pull-left">{{ parcela['texto'] }}:</b>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="pull-right" style="white-space:nowrap;">{{ parcela['valor'] }}</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="pull-right">{{ parcela['prazo'] }}</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="pull-right">{{ parcela['meio_pagamento'] }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+
+                    {% if objeto_pagamento['total_prazo'] %}
+                    <div class="row total">
+                        <hr style="margin:6px 0 6px 0;">
+                        <div class="col-xs-5">
+                            <b class="pull-left">Valor total a prazo:</b>
+                        </div>
+                        <div class="col-xs-7">
+                            <b class="pull-right" style="white-space:nowrap;">{{ objeto_pagamento['total_prazo'] }}</b>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endif %}
+                </div>
+                {% else %}
+                <div style="text-align: left;">
+                    Forma de pagamento a combinar.
+                    <hr style="margin:6px 0 6px 0;">
+                </div>
+                {% endif %}
+                {% if print_pagamento_comentario %}
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ pagamento_comentario }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>   -->
+            <!--FIM DO RESUMO-->
+
+            {% if mrrs|length > 0 %}
+            <br>
+            {% endif %}
+            {% endif %}
+
+            <!-- PÁGINA 2: SERVIÇOS -->
+
+            {% if mrrs|length > 0 %}
+            {% set columns = 0 %}
+            {% if itens|length > 0 %}
+            <hr class="style-two">
+            {% endif %}
+            <div><br></div>
+            <strong>VALORES E PRAZOS</strong><br>
+            <table class="table">
+                <thead>
+
+
+                    {% if print_foto %}
+                    <th class="center">Foto</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_referencia %}
+                    <th class="center">Ref.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_categoria %}
+                    <th class="center">Cat.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    <th>Serviço</th>
+                    {% set columns = columns + 1 %}
+
+                    {% if print_quantidade %}
+                    <th class="center">Qtd.</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_quantidade and print_unit_value %}
+                    <th class="center">Valor</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_tipo %}
+                    <th class="center">Tipo</th>
+                    {% set columns = columns + 1 %}
+                    {% endif%}
+
+                    {% if print_duracao %}
+                    <th class="center">Duração</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_desconto %}
+                    <th class="center" style="white-space:nowrap;">Desconto</th>
+                    {% set columns = columns + 1 %}
+                    {% endif %}
+
+                    {% if print_show_sub_values %}
+                    <th><span class="pull-right" style="white-space:nowrap; text-align: right;">Subtotal</span></th>
+                    {% endif %}
+                    {% set columns = columns + 1 %}
+                </thead>
+                <tbody class="itens">
+                    {% for item in mrrs %}
+                    <tr class="main">
+
+
+                        {% if print_foto %}
+                        <td class="center"><img src="{{ item['foto'] }}" class="img-responsive logo" width="40"
+                                height="40">
+                        </td>
+                        {% endif %}
+
+                        {% if print_referencia %}
+                        <td class="center">{{ item['referencia'] }}</td>
+                        {% endif %}
+
+                        {% if print_categoria %}
+                        <td class="center">{{ item['categoria'] }}</td>
+                        {% endif %}
+
+                        <td class="">{{ item['nome'] }}</td>
+
+                        {% if print_quantidade %}
+                        <td class="center">{{ item['quantidade'] }}</td>
+                        {% endif %}
+
+                        {% if print_quantidade and print_unit_value %}
+                        <td class="center" style="white-space:nowrap; text-align: right;">{{ item['valor_unitario'] }}
+                        </td>
+                        {% endif %}
+
+                        {% if print_tipo %}
+                        <td class="center">{{ item['tipo'] }}</td>
+                        {% endif %}
+
+                        {% if print_duracao %}
+                        <td class="center">{{ item['duracao'] }}</td>
+                        {% endif %}
+
+                        {% if print_desconto %}
+                        <td class="center" style="white-space:nowrap;">{{ item['desconto'] }}</td>
+                        {% endif %}
+
+                        {% if print_show_sub_values %}
+                        <td><span class="pull-right" style="white-space:nowrap; text-align: right;">{{ item['subtotal']
+                                }}</span></td>
+                        {% endif %}
+                    </tr>
+                    {% if item['descricao_ar'] and item['descricao_ar']|length > 0 %}
+                    {% for descricao in item['descricao_ar'] %}
+                    <tr class="justify" style="background-color: white;">
+                        <td colspan="{{ columns }}" style="border: none;">{{ descricao }}</td>
+                    </tr>
+                    {% endfor %}
+                    {% else %}
+                    <tr class="justify">
+                        <td colspan="{{ columns }}">{{ item['descricao'] }}</td>
+                    </tr>
+                    {% endif %}
+                    {% if print_caracteristicas and item['caracteristicas'] %}
+                    <tr class="justify">
+                        <td colspan="{{ columns }}" style="border: none;">Características:<br>{{ item['caracteristicas']
+                            }}
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <hr>
+            <!-- TOTAIS MRR 2 PAGINA -->
+            <!-- <div class="row">
+            <div class="col-xs-6 pull-right totais">
+                {% if total['mrr'] %}
+                <div style="font-weight:bold; text-align: left;">
+                    Resumo da Proposta
+                    <hr style="margin:6px 0 6px 0;">
+                </div>
+                <div class="totais">
+
+                    {% if print_duracao %}
+                    {% for item in mrrs %}
+                    <div class="row total">
+                        <div class="col-xs-7">
+                            Contrato {{ item['nome'] }}
+                        </div>
+                        <div class="col-xs-5">
+                            <p class="pull-right">{{ item['duracao'] }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="col-xs-6 pull-right totais">
+                {% if objeto_pagamento_mrr and objeto_pagamento_mrr['descricao'] %}
+                <div style="text-align: left;">
+                    {{ objeto_pagamento_mrr['descricao'] }}
+                    <hr style="margin:6px 0 6px 0;">
+                </div>
+                <div class="totais">
+                    <div class="row total">
+                        <div class="col-xs-7">
+                            <b class="pull-left">Data do Pagamento:</b>
+                        </div>
+                        <div class="col-xs-5">k
+                            <p class="pull-right">{{ data_primeiro_pagamento_mrr }}</p>
+                        </div>
+                    </div>
+                    <div class="row total">
+                        <div class="col-xs-7">
+                            <b class="pull-left">Dia de Vencimento:</b>
+                        </div>
+                        <div class="col-xs-5">
+                            <p class="pull-right">{{ dia_vencimento_mrr }}</p>
+                        </div>
+                    </div>
+                    <hr style="margin:6px 0 6px 0;">
+                    <div class="row total">
+                        <div class="col-xs-7">
+                            <b class="pull-left" style="white-space:nowrap;">Total Mensal:</b>
+                        </div>
+                        <div class="col-xs-5">
+                            <b class="pull-right" style="white-space:nowrap;">{{ total['mrr'] }}</b>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <div style="text-align: left;">
+                    Forma de pagamento a combinar.
+                    <hr style="margin:6px 0 6px 0;">
+                </div>
+                {% endif %}
+                {% if pagamento_comentario_mrr %}
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ pagamento_comentario_mrr }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %} -->
+        </div>
+    </div>
+
+    <!-- final da tabela de Produtos -->
+
+    {% if total['mrr'] or total['servico'] %}
+    <div class="pagamento">
+        <h1>PAGAMENTO</h1>
+        <div class="pagamento-content">
+            {% if total['servico'] %}
+            <div class="pagamento-content-01">
+                <div class="pagamento-content-text">
+                    TOTAL (Primeiro pagamento)
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>
+                        {{ total['servico'] }}</strong>
+                </div>
+                <!-- <div class="pagamento-content-price" style="margin-left: 300px;">
                         R$ 2.120,80
                     </div> -->
+            </div>
+            {% endif %}
+
+            {% if total['mrr'] %}
+            <div class="pagamento-content-02">
+                <div class="pagamento-content-text">
+                    PAGAMENTO RECORRENTE (Todo mês)
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>{{ total['mrr'] }}</strong>
                 </div>
-                <div class="pagamento-content-02">
-                    <div class="pagamento-content-text">
-                        PAGAMENTO PONTUAL (Pago uma 1 x)
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>R$
-                            1.717,30</strong>
-                    </div>
-                    <!-- <div class="pagamento-content-price" style="margin-left: 230px;">
-                        R$ 1.717,30
-                    </div> -->
-                </div>
-                <div class="pagamento-content-03">
-                    <div class="pagamento-content-text">
-                        PAGAMENTO RECORRENTE (Todo mês)
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <strong>R$ 403,50</strong>
-                    </div>
-                    <!-- <div class="pagamento-content-price" style="margin-left: 227px;">
+                <!-- <div class="pagamento-content-price" style="margin-left: 227px;">
                         R$ 403,50
                     </div> -->
-                </div>
             </div>
-            <div class="fidelity-advice">
-                Sem fidelidade - Pós pago - Aviso de cancelamento 60 dias
-            </div>
-
-            <div class="footer-tallk-me-small" style="display: flex; margin-top: 36.31px; margin-bottom: 36.24px;">
-                <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
-            </div>
+            {% endif %}
         </div>
 
-    </div>
-
-    <div class="fifth-page" style="page-break-after: always;">
-
-        <table class="title-numeration">
-            <tr>
-
-                <td style="padding-right: 30px;">
-
-                </td>
-                <td class="proposta-comercial">
-                    Proposta Comercial
-                </td>
-
-                <td style="padding-left: 589px;">
-
-                </td>
-
-                <td class="page-numeration">
-                    05
-                </td>
-            </tr>
-        </table>
-
-        <div class="fifth-page-content">
-            <div class="fifth-page-title">
-                FUNCIONALIDADES INCLUSAS
-            </div>
-            <li>Dashboard</li>
-            <li>Interligação matriz/filial</li>
-            <li>Múltiplos ramais</li>
-            <li>Gravação de chamadas</li>
-            <li>Extrato de ligações efetuadas e recebidas</li>
-            <svg class="svg-fifth-page-svg-01" xmlns="http://www.w3.org/2000/svg" width="267.5175" height="792.126"
-                viewBox="0 0 185 548" fill="none">
-                <path
-                    d="M337.55 571.89H41.6099C15.8499 571.89 -2.78004 534.32 4.21996 496.49L87.7 45.52C92.43 19.98 107.7 2.34998 125.09 2.34998H421.03C446.79 2.34998 465.42 39.92 458.42 77.75L374.94 528.72C370.21 554.26 354.94 571.89 337.55 571.89Z"
-                    stroke="#129CD8" stroke-width="3.71" stroke-miterlimit="10" />
-            </svg>
-            <li>Espião (acompanhamento de chamadas)</li>
-            <li>Interação para treinamento de operadores</li>
-            <li>Gerenciamento, controle e automação</li>
-            <li>Filas de Atendimento</li>
-            <li>Sintetização de voz</li>
-            <li>URA c/ menus e submenus</li>
-            <li>Caixa Postal</li>
-            <li>Pesquisa de satisfação</li>
-            <li>Sala de Conferência</li>
-            <li>API de integração</li>
-            <li>CallBack</li>
-        </div>
-
-        <div class="divisor"></div>
-
-        <div class="footer-tallk-me-small" style="display: flex; margin-top: 36.31px; margin-bottom: 36.24px;">
+        <!-- <div class="footer-tallk-me-small" style="display: flex; margin-bottom: 36.24px; margin-top: 580px;">
             <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
-        </div>
+        </div> -->
+    </div>
+    {% endif %}
+
     </div>
 
-    <div class="sixth-page" style="page-break-after: always; display: block;">
+    <div style="page-break-after: always;"></div>
+        <div class="fifth-page">
+            <table class="title-numeration">
+                <tr>
+                    <td style="padding-right: 30px;">
+                    </td>
+                    <td class="proposta-comercial">
+                        Proposta Comercial
+                    </td>
+                    <td style="padding-left: 589px;">
+                    </td>
+                    <td class="page-numeration">
+                        05
+                    </td>
+                </tr>
+            </table>
+            <div class="fifth-page-content">
+                <div class="fifth-page-title">
+                    FUNCIONALIDADES INCLUSAS
+                </div>
+                <li>Dashboard</li>
+                <li>Interligação matriz/filial</li>
+                <li>Múltiplos ramais</li>
+                <li>Gravação de chamadas</li>
+                <li>Extrato de ligações efetuadas e recebidas</li>
+                <svg class="svg-fifth-page-svg-01" xmlns="http://www.w3.org/2000/svg" width="267.5175" height="792.126"
+                    viewBox="0 0 185 548" fill="none">
+                    <path
+                        d="M337.55 571.89H41.6099C15.8499 571.89 -2.78004 534.32 4.21996 496.49L87.7 45.52C92.43 19.98 107.7 2.34998 125.09 2.34998H421.03C446.79 2.34998 465.42 39.92 458.42 77.75L374.94 528.72C370.21 554.26 354.94 571.89 337.55 571.89Z"
+                        stroke="#129CD8" stroke-width="3.71" stroke-miterlimit="10" />
+                </svg>
+                <li>Espião (acompanhamento de chamadas)</li>
+                <li>Interação para treinamento de operadores</li>
+                <li>Gerenciamento, controle e automação</li>
+                <li>Filas de Atendimento</li>
+                <li>Sintetização de voz</li>
+                <li>URA c/ menus e submenus</li>
+                <li>Caixa Postal</li>
+                <li>Pesquisa de satisfação</li>
+                <li>Sala de Conferência</li>
+                <li>API de integração</li>
+                <li>CallBack</li>
+            </div>
+            <div class="divisor"></div>
+            <!-- <div class="footer-tallk-me-small" style="display: flex; margin-top: 36.31px; margin-bottom: 36.24px;">
+                <img src="https://images2.imgbox.com/dc/70/UDvDqiTU_o.png" alt="">
+            </div> -->
+        </div>
 
-        <div class="sixth-page-divisor" style="height: 300px;">
+    
+    <div class="sixth-page" style=" display: block;">
+
+        <div class="sixth-page-divisor" style="height: 230px;">
 
         </div>
 
@@ -992,13 +1394,13 @@
             </svg>
         </div>
 
-        <div class="svg-sixth-page-02">
-            <svg xmlns="http://www.w3.org/2000/svg" width="722" height="403" viewBox="0 0 722 403" fill="none">
-                <path
-                    d="M721.485 0V402.345H56.8204C19.1693 402.345 -8.06114 366.368 2.1703 330.128L83.7453 41.3479C90.6584 16.8972 112.97 0 138.395 0H721.485Z"
-                    fill="#E7E8E9" />
-            </svg>
-        </div>
+            <div class="svg-sixth-page-02">
+                <svg xmlns="http://www.w3.org/2000/svg" width="722" height="403" viewBox="0 0 722 403" fill="none">
+                    <path
+                        d="M721.485 0V402.345H56.8204C19.1693 402.345 -8.06114 366.368 2.1703 330.128L83.7453 41.3479C90.6584 16.8972 112.97 0 138.395 0H721.485Z"
+                        fill="#E7E8E9" />
+                </svg>
+            </div>
 
         <div class="footer-tallk-me-big" style="display: flex; margin-left: 37%;">
             <img src="https://images2.imgbox.com/6d/60/5jcJJnA6_o.png" alt="">
@@ -1007,10 +1409,6 @@
     </div>
 
     </div>
-
-
-
-
 </body>
 
 </html>
